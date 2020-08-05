@@ -47,6 +47,7 @@ class Home extends PureComponent {
 
 	bindEvents() {
 		window.addEventListener('scroll', this.props.changeScrollTopShow);
+
 	}
 
 }
